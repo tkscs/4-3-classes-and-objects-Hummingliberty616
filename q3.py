@@ -13,9 +13,12 @@ ella.speak()
 class Dog:
     def __init__(self, name):
         self.name = name
+    
     def __str__(self):
         return (f"A dog named {self.name}")
 
 lily = Dog("Lily")
+damian = Dog("Damian")
 print(lily)
+print(damian)
     
